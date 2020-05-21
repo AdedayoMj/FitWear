@@ -1,0 +1,54 @@
+:root {
+    --mainOrange: orange;
+    --mainWhite: white;
+    --mainDark: black;
+    --mainYellow: yellow;
+    --lightOrange: #FED8B1;
+    --green: green;
+    --red: red;
+}
+
+body {
+    font-family: 'Oswald', sans-serif !important;
+    background: var(--mainWhite) !important;
+    color: var(--mainDark) !important;
+}
+
+.text-title {
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.text-orange {
+    color: var(--mainOrange);
+}
+
+.text-bright {
+    color: var(--lightOrange);
+}
+
+.input-border {
+    border: 0.5rem solid var(--mainOrange);
+    border-width: thick;
+}
+
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: var(--mainDark);
+    border-radius: 0 !important;
+    border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+    background: var(--mainDark) !important;
+    color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--mainOrange);
+}
